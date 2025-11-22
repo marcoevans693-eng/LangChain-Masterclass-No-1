@@ -1,0 +1,125 @@
+=========================================================
+                 MARKDOWN REFERENCE CHEAT SHEET
+=========================================================
+
+HEADERS
+-------
+#      H1
+##     H2
+###    H3
+####   H4
+#####  H5
+###### H6
+
+ITALIC / BOLD / STRIKETHROUGH
+------------------------------
+*italic*        →   *word*
+_italic_        →   _word_
+**bold**        →   **word**
+__bold__        →   __word__
+***bold italic*** → ***word***
+~~strikethrough~~ → ~~word~~
+
+NEW LINES / LINE BREAKS
+-----------------------
+End the line with TWO SPACES
+OR
+Use: <br>
+
+PARAGRAPHS
+----------
+Blank line between text blocks.
+
+LINKS
+-----
+Inline Link:
+    [text](https://example.com)
+
+Reference Style:
+    [text][label]
+    [label]: https://example.com
+
+Images:
+    ![alt text](image-url)
+
+CODE BLOCKS
+-----------
+Inline Code:
+    `inline code`
+
+Fenced Code Block:
+    ```language
+    code inside here
+    ```
+
+ASCII Code Block:
+    ```
+    (no language indicator)
+    ```
+
+QUOTES / BLOCKQUOTES
+--------------------
+> Single level quote
+>> Nested quote
+
+LISTS
+-----
+Unordered:
+    - Item
+    * Item
+    + Item
+
+Ordered:
+    1. First
+    2. Second
+    3. Third
+
+NESTED LISTS
+------------
+- Parent
+    - Child
+        - Grandchild
+
+CHECKLISTS
+----------
+- [ ] To do
+- [x] Done item
+
+TABLES
+------
+| Column A | Column B | Column C |
+|----------|-----------|----------|
+| Cell 1   | Cell 2    | Cell 3   |
+
+ALIGNMENT:
+| Left | Center | Right |
+|:-----|:------:|------:|
+
+HORIZONTAL RULES
+----------------
+Three or more of:
+---
+***
+___
+
+ESCAPING SPECIAL CHARACTERS
+---------------------------
+To display special symbols, prefix with a backslash:
+\*word\*
+\_word\_
+\# not-a-header
+
+EMPHASIS COMBOS
+---------------
+**_bold italic_**
+~~**bold strikethrough**~~
+
+TASK LISTS (GitHub Only)
+------------------------
+- [ ] task
+- [x] completed task
+
+CODE SYNTAX HIGHLIGHTING
+------------------------
+```python
+print("Hello")
